@@ -1,0 +1,13 @@
+# Saída de compilação
+build/
+dist/
+out/
+
+# Configurações locais de IDE (podem conter senhas e caminhos da sua máquina)
+nbproject/private/
+.idea/
+*.iml
+
+# Nunca versionar credenciais
+*.env
+bibliotech.properties
