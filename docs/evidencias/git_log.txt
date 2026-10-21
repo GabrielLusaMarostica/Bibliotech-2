@@ -1,3 +1,4 @@
+20e77b5 | 2026-10-21 | Gabriel Marostica | docs: registro do historico de commits
 4d46b9f | 2026-10-21 | Gabriel Marostica | docs: plano de testes
 e44c867 | 2026-10-21 | Gabriel Marostica | docs: README com instruções do projeto de testes
 4aa406a | 2026-10-21 | Gabriel Marostica | test: testes dos casos de uso de empréstimo, devolução, login e alunos
