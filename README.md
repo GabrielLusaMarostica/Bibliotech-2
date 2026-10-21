@@ -23,6 +23,8 @@ src/bibliotech/
 │                             + PoliticaMulta (Strategy) e CodificadorSenha
 └── config/                   ContextoAplicacao: monta repositórios e serviços (injeção de dependência)
 banco/schema.sql              script de criação das tabelas (MySQL 8)
+BibliotechTestes/             projeto NetBeans de testes JUnit (etapa 7)
+docs/                         plano de testes
 ```
 
 Fluxo de dependências: `Main/telas/servlets → servico → repositorio (interface) ← jdbc | memoria`, e todos usam `model`.
@@ -61,3 +63,18 @@ O programa termina com código de saída `0` se todas as verificações passarem
 | `double` para dinheiro, `java.util.Date` | `BigDecimal` e `java.time.LocalDate` |
 
 Detalhes, justificativas e lista completa de code smells estão no relatório entregue junto com este projeto.
+
+## Testes (etapa 7)
+
+O repositório tem dois projetos NetBeans:
+
+| Pasta | Projeto | Para que serve |
+|---|---|---|
+| `/` (raiz) | `BibliotechRefatorado` | código do sistema (model, repositório, serviço) e `Main` com testes de funcionamento |
+| `BibliotechTestes/` | `BibliotechTestes` | testes unitários **JUnit 4** das regras de negócio |
+
+O projeto de testes usa o código da raiz como *Source Packages* (`src.dir=../src`) e guarda os testes em `BibliotechTestes/test`. As bibliotecas JUnit 4.13.2 e Hamcrest 2.2 estão em `BibliotechTestes/lib`, então não é preciso instalar nada.
+
+**Para executar no NetBeans:** abra a pasta `BibliotechTestes` (*File → Open Project*), clique com o botão direito no projeto e escolha **Test** (Alt+F6). Pelo terminal, dentro de `BibliotechTestes`: `ant test`.
+
+Os testes não usam banco de dados: os serviços recebem repositórios em memória (injeção de dependência) e um relógio controlável, o que permite simular atrasos de devolução sem esperar dias. O plano de testes completo está em `docs/`.
