@@ -1,0 +1,14 @@
+4d46b9f | 2026-10-21 | Gabriel Marostica | docs: plano de testes
+e44c867 | 2026-10-21 | Gabriel Marostica | docs: README com instruções do projeto de testes
+4aa406a | 2026-10-21 | Gabriel Marostica | test: testes dos casos de uso de empréstimo, devolução, login e alunos
+625b52a | 2026-10-21 | Gabriel Marostica | test: testes das regras das entidades (Livro, Emprestimo) e do hash de senha
+e78ea1c | 2026-10-21 | Gabriel Marostica | test: testes unitários do cálculo de atraso e da multa por dia
+310eace | 2026-10-21 | Gabriel Marostica | chore: cria projeto NetBeans BibliotechTestes com JUnit 4
+a366958 | 2026-10-11 | Gabriel Marostica | docs: README com estrutura, execução e comparação com o desktop
+903eebf | 2026-10-11 | Gabriel Marostica | test: main() com testes dos casos de uso em memória e via JDBC
+8f56a67 | 2026-10-11 | Gabriel Marostica | feat(config): ContextoAplicacao como raiz de composição (injeção de dependência)
+df3f022 | 2026-10-11 | Gabriel Marostica | feat(servico): casos de uso, PoliticaMulta (Strategy) e hash de senha
+74c0fdb | 2026-10-11 | Gabriel Marostica | feat(jdbc): camada JDBC com ExecutorSql, configuração externa e transações
+07061d3 | 2026-10-11 | Gabriel Marostica | feat(repositorio): interfaces segregadas (ISP) e implementações em memória
+0ae6dfc | 2026-10-11 | Gabriel Marostica | feat(model): entidades de domínio sem dependência de Swing, com validação e exceções próprias
+dc3e289 | 2026-10-11 | Gabriel Marostica | chore: cria projeto NetBeans BibliotechRefatorado
