@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devoluções – Bibliotech</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body data-pagina="devolucao">
+  <div class="app">
+    <main class="conteudo" id="conteudo">
+      <div class="conteudo__cabecalho">
+        <div>
+          <h1>Devoluções</h1>
+          <p>Empréstimos pendentes, com atraso e multa calculados até a data escolhida.</p>
+        </div>
+        <div class="campo" style="min-width:200px">
+          <label for="data-ref">Data da devolução</label>
+          <input type="date" id="data-ref">
+        </div>
+      </div>
+
+      <section class="cartao" aria-labelledby="t-pendentes">
+        <div class="cartao__titulo"><h2 id="t-pendentes">Pendentes</h2><span class="selo selo--aviso" id="contador" aria-live="polite"></span></div>
+        <div class="tabela-wrap">
+          <table id="tabela-pendentes">
+            <thead><tr><th>Nº</th><th>Aluno</th><th>Livros</th><th>Previsto</th><th>Situação</th><th class="num">Multa</th><th><span class="sr-only">Ação</span></th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="cartao" aria-labelledby="t-hist">
+        <div class="cartao__titulo"><h2 id="t-hist">Histórico de devoluções</h2></div>
+        <div class="tabela-wrap">
+          <table id="tabela-historico">
+            <thead><tr><th>Nº</th><th>Aluno</th><th>Devolvido em</th><th class="num">Dias de atraso</th><th class="num">Multa</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/dados.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/devolucao.js"></script>
+</body>
+</html>

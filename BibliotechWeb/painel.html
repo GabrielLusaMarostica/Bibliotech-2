@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel – Bibliotech</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body data-pagina="painel">
+  <div class="app">
+    <main class="conteudo" id="conteudo">
+      <div class="conteudo__cabecalho">
+        <div>
+          <h1>Painel</h1>
+          <p id="data-hoje"></p>
+        </div>
+        <a class="btn" href="emprestimo.html">+ Novo empréstimo</a>
+      </div>
+
+      <section class="grade-cartoes" aria-label="Indicadores">
+        <div class="cartao indicador"><div class="indicador__valor" id="ind-titulos">–</div><div class="indicador__rotulo">Títulos no acervo</div></div>
+        <div class="cartao indicador"><div class="indicador__valor" id="ind-exemplares">–</div><div class="indicador__rotulo">Exemplares disponíveis</div></div>
+        <div class="cartao indicador"><div class="indicador__valor" id="ind-alunos">–</div><div class="indicador__rotulo">Alunos cadastrados</div></div>
+        <div class="cartao indicador indicador--alerta"><div class="indicador__valor" id="ind-pendentes">–</div><div class="indicador__rotulo">Empréstimos em aberto</div></div>
+        <div class="cartao indicador indicador--perigo"><div class="indicador__valor" id="ind-atrasados">–</div><div class="indicador__rotulo">Em atraso</div></div>
+      </section>
+
+      <div class="grade-2">
+        <section class="cartao" aria-labelledby="t-atrasos">
+          <div class="cartao__titulo"><h2 id="t-atrasos">Empréstimos em atraso</h2><a href="devolucao.html">Ver todos</a></div>
+          <div class="tabela-wrap">
+            <table id="tabela-atrasos">
+              <thead><tr><th>Aluno</th><th>Previsto</th><th class="num">Dias</th><th class="num">Multa</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="cartao" aria-labelledby="t-generos">
+          <div class="cartao__titulo"><h2 id="t-generos">Exemplares por gênero</h2></div>
+          <div class="barras" id="barras-generos"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/dados.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/painel.js"></script>
+</body>
+</html>

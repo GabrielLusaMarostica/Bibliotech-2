@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novo empréstimo – Bibliotech</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body data-pagina="emprestimo">
+  <div class="app">
+    <main class="conteudo" id="conteudo">
+      <div class="conteudo__cabecalho">
+        <div>
+          <h1>Novo empréstimo</h1>
+          <p>Escolha o aluno, o funcionário responsável e os livros. O estoque é atualizado ao confirmar.</p>
+        </div>
+      </div>
+
+      <div class="grade-2">
+        <form class="cartao" id="form-emprestimo" novalidate aria-labelledby="t-dados">
+          <div class="cartao__titulo"><h2 id="t-dados">1. Dados do empréstimo</h2></div>
+          <div class="alerta-form" id="alerta-form" role="alert" hidden></div>
+          <div class="grade-form">
+            <div class="campo">
+              <label for="aluno">Aluno *</label>
+              <select id="aluno" name="aluno" aria-describedby="erro-aluno"></select>
+              <span class="campo__erro" id="erro-aluno"></span>
+            </div>
+            <div class="campo">
+              <label for="funcionario">Funcionário *</label>
+              <select id="funcionario" name="funcionario" aria-describedby="erro-funcionario"></select>
+              <span class="campo__erro" id="erro-funcionario"></span>
+            </div>
+            <div class="campo">
+              <label for="dataPrevista">Devolução prevista *</label>
+              <input type="date" id="dataPrevista" name="dataPrevista" aria-describedby="erro-dataPrevista">
+              <span class="campo__erro" id="erro-dataPrevista"></span>
+            </div>
+          </div>
+
+          <h2 style="margin-top:1.5rem" id="t-livros">2. Livros</h2>
+          <div class="grade-form">
+            <div class="campo">
+              <label for="livro">Livro</label>
+              <select id="livro" name="livro" aria-describedby="erro-livro"></select>
+              <span class="campo__erro" id="erro-livro"></span>
+            </div>
+            <div class="campo">
+              <label for="quantidade">Quantidade</label>
+              <input type="number" id="quantidade" name="quantidade" min="1" value="1" aria-describedby="erro-quantidade">
+              <span class="campo__erro" id="erro-quantidade"></span>
+            </div>
+          </div>
+          <div class="acoes-form">
+            <button type="button" class="btn btn--secundario" id="btn-adicionar">+ Adicionar livro</button>
+          </div>
+        </form>
+
+        <section class="cartao" aria-labelledby="t-resumo">
+          <div class="cartao__titulo"><h2 id="t-resumo">Resumo</h2></div>
+          <div class="tabela-wrap">
+            <table id="tabela-itens">
+              <thead><tr><th>Livro</th><th class="num">Qtd.</th><th><span class="sr-only">Remover</span></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <dl class="resumo" style="margin-top:1rem">
+            <dt>Aluno</dt><dd id="res-aluno">–</dd>
+            <dt>Funcionário</dt><dd id="res-funcionario">–</dd>
+            <dt>Devolução prevista</dt><dd id="res-data">–</dd>
+            <dt>Multa em caso de atraso</dt><dd id="res-multa"></dd>
+          </dl>
+          <div class="acoes-form">
+            <button type="button" class="btn" id="btn-confirmar" disabled>Confirmar empréstimo</button>
+            <button type="button" class="btn btn--secundario" id="btn-limpar">Limpar</button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/dados.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/emprestimo.js"></script>
+</body>
+</html>

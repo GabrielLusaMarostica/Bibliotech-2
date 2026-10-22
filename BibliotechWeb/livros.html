@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Livros – Bibliotech</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body data-pagina="livros">
+  <div class="app">
+    <main class="conteudo" id="conteudo">
+      <div class="conteudo__cabecalho">
+        <div>
+          <h1>Livros</h1>
+          <p>Acervo da biblioteca e quantidade de exemplares disponíveis.</p>
+        </div>
+        <span class="selo selo--aviso" id="contador" aria-live="polite"></span>
+      </div>
+
+      <div class="grade-2">
+        <section class="cartao" aria-labelledby="titulo-form">
+          <div class="cartao__titulo"><h2 id="titulo-form">Novo livro</h2></div>
+          <div class="alerta-form" id="alerta-form" role="alert" hidden></div>
+          <form id="form-cadastro" novalidate>
+            <input type="hidden" name="id">
+            <div class="grade-form">
+              <div class="campo campo--largo">
+                <label for="titulo">Título *</label>
+                <input type="text" id="titulo" name="titulo" maxlength="200" aria-describedby="erro-titulo">
+                <span class="campo__erro" id="erro-titulo"></span>
+              </div>
+              <div class="campo">
+                <label for="autor">Autor *</label>
+                <input type="text" id="autor" name="autor" maxlength="120" aria-describedby="erro-autor">
+                <span class="campo__erro" id="erro-autor"></span>
+              </div>
+              <div class="campo">
+                <label for="genero">Gênero</label>
+                <input type="text" id="genero" name="genero" maxlength="60" list="generos" aria-describedby="erro-genero">
+                <span class="campo__erro" id="erro-genero"></span>
+              </div>
+              <div class="campo">
+                <label for="ano">Ano de publicação *</label>
+                <input type="text" id="ano" name="ano" inputmode="numeric" maxlength="4" aria-describedby="erro-ano">
+                <span class="campo__erro" id="erro-ano"></span>
+              </div>
+              <div class="campo">
+                <label for="quantidade">Exemplares *</label>
+                <input type="text" id="quantidade" name="quantidade" inputmode="numeric" maxlength="4" aria-describedby="erro-quantidade">
+                <span class="campo__erro" id="erro-quantidade"></span>
+              </div>
+              <datalist id="generos"><option value="Romance"><option value="Infantil"><option value="História"><option value="Ciências"><option value="Poesia"></datalist>
+            </div>
+            <div class="acoes-form">
+              <button type="submit" class="btn" id="btn-salvar">Cadastrar</button>
+              <button type="button" class="btn btn--secundario" id="btn-cancelar" hidden>Cancelar edição</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="cartao" aria-labelledby="titulo-lista">
+          <div class="cartao__titulo"><h2 id="titulo-lista">Livros cadastrados</h2></div>
+          <div class="barra-busca">
+            <label class="sr-only" for="busca">Buscar</label>
+            <input type="search" id="busca" placeholder="Buscar por título, autor ou gênero…">
+          </div>
+          <div class="tabela-wrap">
+            <table id="tabela">
+              <thead><tr><th>Título</th><th>Autor</th><th>Gênero</th><th class="num">Ano</th><th class="num">Exemplares</th><th><span class="sr-only">Ações</span></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/dados.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/crud.js"></script>
+  <script src="js/livros.js"></script>
+</body>
+</html>

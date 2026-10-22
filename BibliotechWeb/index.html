@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrar – Bibliotech</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body class="pagina-login">
+  <section class="login__painel" aria-hidden="false">
+    <h1>❖ Bibliotech</h1>
+    <p>Empréstimos, devoluções e acervo da biblioteca escolar em um só lugar.</p>
+    <p>Controle de estoque automático e cálculo de multa por atraso.</p>
+  </section>
+
+  <main class="login__formulario">
+    <div class="login__caixa">
+      <h2>Acesso ao sistema</h2>
+      <p>Entre com seu usuário e senha.</p>
+      <div class="alerta-form" id="alerta-login" role="alert" hidden></div>
+
+      <form id="form-login" novalidate>
+        <div class="campo">
+          <label for="login">Usuário</label>
+          <input type="text" id="login" name="login" autocomplete="username" aria-describedby="erro-login">
+          <span class="campo__erro" id="erro-login"></span>
+        </div>
+        <div class="campo">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" autocomplete="current-password" aria-describedby="erro-senha">
+          <span class="campo__erro" id="erro-senha"></span>
+        </div>
+        <label style="display:flex;gap:.5rem;align-items:center;margin:.25rem 0 1rem">
+          <input type="checkbox" id="mostrar-senha"> Mostrar senha
+        </label>
+        <button type="submit" class="btn btn--bloco">Entrar</button>
+      </form>
+      <p class="dica" style="margin-top:1rem;font-size:.85rem;color:var(--cor-tinta-suave)">
+        Protótipo: use <strong>admin</strong> / <strong>admin123</strong>.
+      </p>
+    </div>
+  </main>
+
+  <script src="js/dados.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

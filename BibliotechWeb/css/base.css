@@ -1,0 +1,45 @@
+/* base.css – variáveis de design, reset e tipografia */
+:root {
+  --cor-tinta: #1d2b3a;
+  --cor-tinta-suave: #4a5a6a;
+  --cor-fundo: #f5f2ea;
+  --cor-superficie: #ffffff;
+  --cor-borda: #ddd6c6;
+  --cor-primaria: #1f5f5b;
+  --cor-primaria-escura: #164744;
+  --cor-destaque: #c9801c;
+  --cor-perigo: #b3372f;
+  --cor-sucesso: #2c7a4b;
+  --cor-aviso-fundo: #fbefd5;
+  --raio: 8px;
+  --sombra: 0 1px 2px rgba(29, 43, 58, .08), 0 4px 14px rgba(29, 43, 58, .06);
+  --fonte-texto: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --fonte-titulo: Georgia, "Times New Roman", serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: var(--fonte-texto);
+  color: var(--cor-tinta);
+  background: var(--cor-fundo);
+  line-height: 1.5;
+}
+
+h1, h2, h3 { font-family: var(--fonte-titulo); line-height: 1.2; margin: 0 0 .5rem; }
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.25rem; }
+p { margin: 0 0 1rem; }
+a { color: var(--cor-primaria); }
+
+:focus-visible { outline: 3px solid var(--cor-destaque); outline-offset: 2px; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+[hidden] { display: none !important; }

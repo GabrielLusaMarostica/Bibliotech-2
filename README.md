@@ -78,3 +78,7 @@ O projeto de testes usa o código da raiz como *Source Packages* (`src.dir=../sr
 **Para executar no NetBeans:** abra a pasta `BibliotechTestes` (*File → Open Project*), clique com o botão direito no projeto e escolha **Test** (Alt+F6). Pelo terminal, dentro de `BibliotechTestes`: `ant test`.
 
 Os testes não usam banco de dados: os serviços recebem repositórios em memória (injeção de dependência) e um relógio controlável, o que permite simular atrasos de devolução sem esperar dias. O plano de testes completo está em `docs/`.
+
+## Front-end (etapa 8)
+
+A pasta [`BibliotechWeb/`](BibliotechWeb/) contém as páginas HTML/CSS/JS do sistema web e os wireframes. Veja o README dela.
