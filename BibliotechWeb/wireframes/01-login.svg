@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600"><rect width="960" height="600" fill="#fafafa"/><rect x="300" y="90" width="360" height="400" rx="10" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="480" y="140" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#333" text-anchor="middle">▣ Bibliotech</text>
+<text x="480" y="165" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#777" text-anchor="middle">Sistema de gerenciamento da biblioteca</text>
+<text x="330" y="205" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Usuário</text>
+<rect x="330" y="211" width="300" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="330" y="275" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Senha</text>
+<rect x="330" y="281" width="225" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<rect x="562" y="281" width="68" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="596.0" y="303.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Mostrar</text>
+<text x="330" y="350" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#b00" text-anchor="start">Mensagem de erro (se inválido)</text>
+<rect x="330" y="370" width="300" height="36" rx="6" fill="#555" stroke="#555" stroke-width="1.5"/>
+<text x="480.0" y="393.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Entrar</text>
+<rect x="330" y="430" width="300" height="40" rx="4" fill="#eee" stroke="#bbb" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="340" y="455" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#777" text-anchor="start">Dica do modo demonstração</text>
+<rect x="680" y="200" width="230" height="44" rx="4" fill="#fff7c2" stroke="#c9b300" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="688" y="218" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#6b5e00" text-anchor="start">Validação JS: campos obrigatórios</text>
+<text x="688" y="233" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#6b5e00" text-anchor="start">senha &gt;= 6 caracteres; mesma</text>
+<text x="688" y="248" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#6b5e00" text-anchor="start">mensagem para usuário/senha errados</text></svg>

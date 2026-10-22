@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600"><rect width="960" height="600" fill="#fafafa"/><rect x="0" y="0" width="190" height="600" rx="0" fill="#e4e4e4" stroke="#555" stroke-width="1.5"/>
+<text x="20" y="38" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#333" text-anchor="start">▣ Bibliotech</text>
+<rect x="10" y="70" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="90" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Painel</text>
+<rect x="10" y="108" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="128" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Alunos</text>
+<rect x="10" y="146" width="170" height="30" rx="6" fill="#bbb" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="166" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#333" text-anchor="start">Livros</text>
+<rect x="10" y="184" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="204" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Funcionários</text>
+<rect x="10" y="222" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="242" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Novo empréstimo</text>
+<rect x="10" y="260" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="280" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Pendentes/devolução</text>
+<text x="20" y="550" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">Logado: admin</text>
+<rect x="20" y="560" width="70" height="26" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="55.0" y="578.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Sair</text>
+<rect x="190" y="0" width="770" height="600" rx="0" fill="#666" stroke="none" stroke-width="1.5"/>
+<rect x="300" y="70" width="540" height="400" rx="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="325" y="105" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#333" text-anchor="start">Novo(a) Livro</text>
+<text x="325" y="140" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Título</text>
+<rect x="325" y="146" width="490" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="325" y="196" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" fill="#b00" text-anchor="start">mensagem de erro de validação</text>
+<text x="325" y="210" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Autor</text>
+<rect x="325" y="216" width="490" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="325" y="266" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" fill="#b00" text-anchor="start">mensagem de erro de validação</text>
+<text x="325" y="280" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">ISBN (10 ou 13 dígitos)</text>
+<rect x="325" y="286" width="490" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="325" y="336" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" fill="#b00" text-anchor="start">mensagem de erro de validação</text>
+<text x="325" y="350" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Quantidade em estoque</text>
+<rect x="325" y="356" width="490" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="325" y="406" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="400" fill="#b00" text-anchor="start">mensagem de erro de validação</text>
+<rect x="600" y="425" width="100" height="30" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="650.0" y="445.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Cancelar</text>
+<rect x="710" y="425" width="100" height="30" rx="6" fill="#555" stroke="#555" stroke-width="1.5"/>
+<text x="760.0" y="445.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Salvar</text></svg>

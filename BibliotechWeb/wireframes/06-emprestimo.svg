@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600"><rect width="960" height="600" fill="#fafafa"/><rect x="0" y="0" width="190" height="600" rx="0" fill="#e4e4e4" stroke="#555" stroke-width="1.5"/>
+<text x="20" y="38" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#333" text-anchor="start">▣ Bibliotech</text>
+<rect x="10" y="70" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="90" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Painel</text>
+<rect x="10" y="108" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="128" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Alunos</text>
+<rect x="10" y="146" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="166" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Livros</text>
+<rect x="10" y="184" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="204" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Funcionários</text>
+<rect x="10" y="222" width="170" height="30" rx="6" fill="#bbb" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="242" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#333" text-anchor="start">Novo empréstimo</text>
+<rect x="10" y="260" width="170" height="30" rx="6" fill="#e4e4e4" stroke="#aaa" stroke-width="1.5"/>
+<text x="22" y="280" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Pendentes/devolução</text>
+<text x="20" y="550" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#333" text-anchor="start">Logado: admin</text>
+<rect x="20" y="560" width="70" height="26" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="55.0" y="578.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Sair</text>
+<text x="220" y="45" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#333" text-anchor="start">Novo empréstimo</text>
+<rect x="220" y="70" width="450" height="500" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="235" y="98" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#333" text-anchor="start">Dados do empréstimo</text>
+<text x="235" y="120" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Aluno</text>
+<rect x="235" y="126" width="200" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="243" y="145" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#aaa" text-anchor="start">Selecione...</text>
+<text x="455" y="120" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Funcionário</text>
+<rect x="455" y="126" width="200" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="463" y="145" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#aaa" text-anchor="start">Selecione...</text>
+<text x="235" y="190" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Data prevista</text>
+<rect x="235" y="196" width="200" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="243" y="215" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#aaa" text-anchor="start">dd/mm/aaaa</text>
+<text x="235" y="246" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#777" text-anchor="start">Prazo sugerido: 7 dias</text>
+<text x="235" y="285" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#333" text-anchor="start">Livros</text>
+<text x="235" y="305" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Livro</text>
+<rect x="235" y="311" width="260" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="243" y="330" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#aaa" text-anchor="start">Selecione...</text>
+<text x="515" y="305" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Qtd</text>
+<rect x="515" y="311" width="140" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="523" y="330" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" fill="#aaa" text-anchor="start">1</text>
+<text x="235" y="375" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#b00" text-anchor="start">mensagem de erro do item (estoque insuficiente...)</text>
+<rect x="235" y="390" width="160" height="30" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="315.0" y="410.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Adicionar à lista</text>
+<rect x="405" y="520" width="110" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="460.0" y="542.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Limpar</text>
+<rect x="525" y="520" width="135" height="34" rx="6" fill="#555" stroke="#555" stroke-width="1.5"/>
+<text x="592.5" y="542.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Registrar</text>
+<rect x="690" y="70" width="250" height="260" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="705" y="98" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#333" text-anchor="start">Resumo</text>
+<rect x="705" y="115" width="150" height="10" rx="3" fill="#ddd" stroke="none" stroke-width="1.5"/>
+<rect x="870" y="108" width="55" height="22" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="897.5" y="124.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Rem</text>
+<rect x="705" y="153" width="150" height="10" rx="3" fill="#ddd" stroke="none" stroke-width="1.5"/>
+<rect x="870" y="146" width="55" height="22" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="897.5" y="162.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Rem</text>
+<rect x="705" y="191" width="150" height="10" rx="3" fill="#ddd" stroke="none" stroke-width="1.5"/>
+<rect x="870" y="184" width="55" height="22" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="897.5" y="200.0" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">Rem</text>
+<line x1="705" y1="260" x2="925" y2="260" stroke="#999" stroke-width="1.2"/>
+<text x="705" y="290" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#333" text-anchor="start">Total de exemplares: N</text>
+<rect x="690" y="350" width="230" height="44" rx="4" fill="#fff7c2" stroke="#c9b300" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="698" y="368" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#6b5e00" text-anchor="start">Valida: aluno e funcionário obrigatórios,</text>
+<text x="698" y="383" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#6b5e00" text-anchor="start">data &gt;= hoje, pelo menos 1 livro,</text>
+<text x="698" y="398" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" fill="#6b5e00" text-anchor="start">quantidade &lt;= estoque</text></svg>
