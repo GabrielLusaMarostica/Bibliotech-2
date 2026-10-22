@@ -1,3 +1,10 @@
+faf5a7d | 2026-10-22 | Gabriel Marostica | docs: README do front-end, prints das telas e indice do repositorio
+b7dd934 | 2026-10-22 | Gabriel Marostica | feat(web): novo emprestimo e pendentes/devolucao com calculo de multa
+351b214 | 2026-10-22 | Gabriel Marostica | feat(web): cadastros de alunos, livros e funcionarios com validacao
+63c15dd | 2026-10-22 | Gabriel Marostica | feat(web): paginas de login e painel
+24625fa | 2026-10-22 | Gabriel Marostica | feat(web): estilo global e scripts comuns (dados simulados, validacao, menu)
+46f577c | 2026-10-22 | Gabriel Marostica | docs: wireframes das telas do sistema web
+5531eeb | 2026-10-21 | Gabriel Marostica | docs: atualiza registro de commits
 20e77b5 | 2026-10-21 | Gabriel Marostica | docs: registro do historico de commits
 4d46b9f | 2026-10-21 | Gabriel Marostica | docs: plano de testes
 e44c867 | 2026-10-21 | Gabriel Marostica | docs: README com instruções do projeto de testes
